@@ -84,8 +84,8 @@ for AGENDA in AGENDA_JSON:
             print("13=Zoning")
             print("14=Infrastructure")
             print("15=Sanitation")
-            tags = input(
-                "Comma separated values (m for more info, q to quit):")
+            tags = input("Comma separated values (m for more info, q to quit):")
+            print(tags)
             if ("m" in tags or "M" in tags):
                 if ("Recommendations" in AGENDA_ITEM):
                     print(AGENDA_ITEM["Recommendations"])
